@@ -29,10 +29,7 @@ jobs:
         run: dotnet build --no-restore --configuration Release
 
       - name: Fetch packages
-        run: |
-            cd IllusionPackageProvider/bin/Release/net6.0
-            ls Config
-            dotnet IllusionPackageProvider.dll
+        run: cd IllusionPackageProvider/bin/Release/net6.0 && dotnet IllusionPackageProvider.dll
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
