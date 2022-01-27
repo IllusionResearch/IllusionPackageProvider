@@ -39,6 +39,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: gh-pages
-          build_dir: IllusionPackageProvider/bin/net6.0/Release/Public
+          build_dir: IllusionPackageProvider/bin/Release/net6.0/Public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
