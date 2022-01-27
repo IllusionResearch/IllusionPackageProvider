@@ -7,7 +7,7 @@ internal static class Packages
 {
     internal async static IAsyncEnumerable<LocalPackage> GetPackages([EnumeratorCancellation] CancellationToken cancellationToken = default)
     {
-        await using var file = File.OpenRead(@"Config\packages.json");
+        await using var file = File.OpenRead(Path.Combine("Config", "packages.json"));
         var packages = JsonSerializer.DeserializeAsyncEnumerable<LocalPackage>(file, cancellationToken: cancellationToken);
 
         await foreach (var package in packages)
