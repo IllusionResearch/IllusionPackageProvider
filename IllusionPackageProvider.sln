@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32120.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IllusionPackageProvider", "IllusionPackageProvider\IllusionPackageProvider.csproj", "{940A6408-D5F1-44D4-B309-C86F62868DD4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "IllusionPackageCore", "IllusionPackageCore\IllusionPackageCore.shproj", "{C38D1E0D-7011-4FCB-8783-BA44CA4B3ABC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{481A122D-507B-4645-B349-5693ED73EAF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{9A600841-4F6E-47A0-B947-060795E227B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{F5D48B16-C3C4-43D8-A7FC-5C7060C1FCA3}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\publish.yml = .github\workflows\publish.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		IllusionPackageCore\IllusionPackageCore.projitems*{940a6408-d5f1-44d4-b309-c86f62868dd4}*SharedItemsImports = 5
+		IllusionPackageCore\IllusionPackageCore.projitems*{c38d1e0d-7011-4fcb-8783-ba44ca4b3abc}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{940A6408-D5F1-44D4-B309-C86F62868DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940A6408-D5F1-44D4-B309-C86F62868DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940A6408-D5F1-44D4-B309-C86F62868DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940A6408-D5F1-44D4-B309-C86F62868DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A600841-4F6E-47A0-B947-060795E227B3} = {481A122D-507B-4645-B349-5693ED73EAF3}
+		{F5D48B16-C3C4-43D8-A7FC-5C7060C1FCA3} = {9A600841-4F6E-47A0-B947-060795E227B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2E1B1CF-56CB-45B4-8458-F00AB691A33B}
+	EndGlobalSection
+EndGlobal

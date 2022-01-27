@@ -1,0 +1,303 @@
+[
+  {
+    "Repository": {
+      "Owner": "BepInEx",
+      "Name": "BepInEx"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "BepInEx_x64_(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "BepInEx",
+      "Name": "BepInEx.ConfigurationManager"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "BepInEx.ConfigurationManager_v(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "Animal42069",
+      "Name": "BetterPenetration"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "KK_BetterPenetration.zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "IllusionMods",
+      "Name": "KK_Plugins"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "KK_AnimationController.v(.*?).zip",
+          "KK_AnimationOverdrive.v(.*?).zip",
+          "KK_Autosave.v(.*?).zip",
+          "KK_CharacterExport.v(.*?).zip",
+          "KK_Colliders.v(.*?).zip",
+          "KK_DynamicBoneEditor.v(.*?).zip",
+          "KK_EyeControl.v(.*?).zip",
+          "KK_FKIK.v(.*?).zip",
+          "KK_InvisibleBody.v(.*?).zip",
+          "KK_MakerDefaults.v(.*?).zip",
+          "KK_MaleJuice.v(.*?).zip",
+          "KK_MaterialEditor.v(.*?).zip",
+          "KK_PoseFolders.v(.*?).zip",
+          "KK_PoseQuickLoad.v(.*?).zip",
+          "KK_PoseUnlocker.v(.*?).zip",
+          "KK_StudioCustomMasking.v(.*?).zip",
+          "KK_StudioImageEmbed.v(.*?).zip",
+          "KK_StudioObjectMoveHotkeys.v(.*?).zip",
+          "KK_StudioSceneLoadedSound.v(.*?).zip",
+          "KK_StudioSceneSettings.v(.*?).zip",
+          "KK_Subtitles.v(.*?).zip",
+          "KK_UncensorSelector.v(.*?).zip",
+          "KK_AccessoryClothes.v(.*?).zip",
+          "KK_AccessoryQuickRemove.v(.*?).zip",
+          "KK_ClothingUnlocker.v(.*?).zip",
+          "KK_HairAccessoryCustomizer.v(.*?).zip",
+          "KK_ItemBlacklist.v(.*?).zip",
+          "KK_Profile.v(.*?).zip",
+          "KK_Pushup.v(.*?).zip",
+          "KK_ReloadCharaListOnChange.v(.*?).zip",
+          "KK_EyeShaking.v(.*?).zip",
+          "KK_ForceHighPoly.v(.*?).zip",
+          "KK_FreeHRandom.v(.*?).zip",
+          "KK_HCharaAdjustment.v(.*?).zip",
+          "KK_LightingTweaks.v(.*?).zip",
+          "KK_MoreOutfits.v(.*?).zip",
+          "KK_TwoLut.v(.*?).zip",
+          "KK_CharaMakerLoadedSound.v(.*?).zip",
+          "KK_FadeAdjuster.v(.*?).zip",
+          "KK_ListOverride.v(.*?).zip",
+          "KK_RandomCharacterGenerator.v(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "IllusionMods",
+      "Name": "BepisPlugins"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "KK_BepisPlugins_r(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "FairBear",
+      "Name": "KK_PovX"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "KK_PovX.v(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "bbepis",
+      "Name": "XUnity.AutoTranslator"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "XUnity.AutoTranslator-BepInEx-(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "IllusionMods",
+      "Name": "AnimationLoader"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "AnimationLoader.Koikatu.v(.*?).zip",
+          "KPlug.Animation.Bundles.v(.*?).zip",
+          "KPlug.Animations.v(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "BepInEx",
+      "Name": "BepInEx.Utility"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "BepInEx.CatchUnityEventExceptions.v(.*?).zip",
+          "BepInEx.EnableFullScreenToggle.v(.*?).zip",
+          "BepInEx.EnableResize.v(.*?).zip",
+          "BepInEx.InputHotkeyBlock.v(.*?).zip",
+          "BepInEx.MessageCenter.v(.*?).zip",
+          "BepInEx.MuteInBackground.v(.*?).zip",
+          "BepInEx.OptimizeIMGUI.v(.*?).zip",
+          "BepInEx.SuppressGetTypesErrorsPatcher.v(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "MayouKurayami",
+      "Name": "KK_CrossFader"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "CrossFader_v(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "IllusionMods",
+      "Name": "Ahegao"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "KK_Ahegao_v(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "BepInEx",
+      "Name": "IPALoaderX"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "BepInEx.IPALoader.v(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "IllusionMods",
+      "Name": "CharacterReplacer"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "Koikatsu_CharacterReplacer.v(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "IllusionMods",
+      "Name": "ModBoneImplantor"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "KK_ModBoneImplantor_v(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "jalil49",
+      "Name": "MoreAccessories"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "KK_MoreAccessories_v(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "IllusionMods",
+      "Name": "IllusionFixes"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "IllusionFixes_Koikatsu_(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "IllusionMods",
+      "Name": "IllusionModdingAPI"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "KKAPI_v(.*?).zip"
+        ]
+      }
+    ]
+  },
+  {
+    "Repository": {
+      "Owner": "ManlyMarco",
+      "Name": "RuntimeUnityEditor"
+    },
+    "Games": [
+      {
+        "Token": "Koikatsu",
+        "Patterns": [
+          "RuntimeUnityEditor_BepInEx5_v(.*?).zip"
+        ]
+      }
+    ]
+  }
+]
