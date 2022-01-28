@@ -40,5 +40,6 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: IllusionPackageProvider/bin/Release/net6.0/Public
+          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
