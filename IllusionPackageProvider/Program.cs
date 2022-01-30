@@ -5,17 +5,11 @@ using System.Text.Json;
 
 var packages = Enum.GetValues<GameToken>().ToDictionary(k => k, v => new ConcurrentDictionary<string, WebPackage>());
 
-await Parallel.ForEachAsync(Generator.Packages(), (package, _) =>
+await Parallel.ForEachAsync(Generator.Packages(), (result, _) =>
 {
-    foreach (var result in package)
+    if (packages.TryGetValue(result.Game, out var value))
     {
-        if (packages.TryGetValue(result.Token, out var value))
-        {
-            foreach (var item in result.Packages)
-            {
-                value.TryAdd($"{result.Repository.Owner}/{result.Repository.Name}", item);
-            }
-        }
+        value.TryAdd($"{result.Repository.Owner}/{result.Repository.Name}/{result.Name}", result.Package);
     }
 
     return ValueTask.CompletedTask;

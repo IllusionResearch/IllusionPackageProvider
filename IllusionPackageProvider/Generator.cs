@@ -1,40 +1,40 @@
 ﻿using IllusionPackageCore;
+using IllusionPackageDatabase;
 using System.Text.RegularExpressions;
 
 namespace IllusionPackageProvider;
 
 internal static class Generator
 {
-    internal static IAsyncEnumerable<IEnumerable<GameResult>> Packages()
+    internal static async IAsyncEnumerable<GameResult> Packages()
     {
         var client = Utils.CreateClient();
-        
-        return IllusionPackageProvider.Packages.GetPackages().SelectAwait(async package =>
+
+        await using var database = new DatabaseContext();
+
+        foreach (var packages in database.Packages.ToArray().GroupBy(k => new { k.RepositoryOwner, k.RepositoryName }))
         {
-            var releases = await client.Repository.Release.GetAll(package.Repository.Owner, package.Repository.Name);
+            var releases = await client.Repository.Release.GetAll(packages.Key.RepositoryOwner, packages.Key.RepositoryName);
 
-            return package.Games.Select(game =>
+            foreach (var package in packages)
             {
-                var packages = game.Patterns.Select(pattern =>
+                foreach (var release in releases)
                 {
-                    foreach (var release in releases)
+                    foreach (var asset in release.Assets)
                     {
-                        foreach (var asset in release.Assets)
-                        {
-                            var math = Regex.Match(asset.Name, pattern);
-                            if (!math.Success) continue;
+                        var math = Regex.Match(asset.Name, package.Pattern);
+                        if (!math.Success) continue;
 
-                            var version = math.Groups.Count >= 2 ? math.Groups[1].Value : release.TagName;
-                            return new WebPackage(asset.BrowserDownloadUrl, Version.Parse(version));
-                        }
+                        var name = math.Groups.GetValueOrDefault("Name");
+                        if (name is null) throw new ApplicationException($"No name found. Bad pattern ({package.Pattern})");
+
+                        var version = math.Groups.GetValueOrDefault("Version")?.Value ?? release.TagName;
+
+                        var repository = new Repository(packages.Key.RepositoryOwner, packages.Key.RepositoryName);
+                        yield return new GameResult(package.Game, repository, name.Value, new WebPackage(asset.BrowserDownloadUrl, Version.Parse(version)));
                     }
-
-
-                    throw new ApplicationException($"Pattern \"{pattern}\" not found");
-                });
-
-                return new GameResult(game.Token, package.Repository, packages);
-            });
-        });
+                }
+            }
+        }
     }
 }

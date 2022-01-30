@@ -16,10 +16,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 		.github\workflows\publish.yml = .github\workflows\publish.yml
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IllusionPackageManagerBackend", "IllusionPackageManagerBackend\IllusionPackageManagerBackend.csproj", "{8E34D1F9-9824-4925-AB00-FBFA43559C04}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "IllusionPackageDatabase", "IllusionPackageDatabase\IllusionPackageDatabase.shproj", "{F0F060CB-2622-4580-B916-16C9186265BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{99E4DF95-8266-42A6-AE21-436AAA59A92D}"
+	ProjectSection(SolutionItems) = preProject
+		Content\packages.db = Content\packages.db
+		Content\packages.db-shm = Content\packages.db-shm
+		Content\packages.db-wal = Content\packages.db-wal
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		IllusionPackageCore\IllusionPackageCore.projitems*{8e34d1f9-9824-4925-ab00-fbfa43559c04}*SharedItemsImports = 5
+		IllusionPackageDatabase\IllusionPackageDatabase.projitems*{8e34d1f9-9824-4925-ab00-fbfa43559c04}*SharedItemsImports = 5
 		IllusionPackageCore\IllusionPackageCore.projitems*{940a6408-d5f1-44d4-b309-c86f62868dd4}*SharedItemsImports = 5
+		IllusionPackageDatabase\IllusionPackageDatabase.projitems*{940a6408-d5f1-44d4-b309-c86f62868dd4}*SharedItemsImports = 5
 		IllusionPackageCore\IllusionPackageCore.projitems*{c38d1e0d-7011-4fcb-8783-ba44ca4b3abc}*SharedItemsImports = 13
+		IllusionPackageDatabase\IllusionPackageDatabase.projitems*{f0f060cb-2622-4580-b916-16c9186265bc}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +45,10 @@ Global
 		{940A6408-D5F1-44D4-B309-C86F62868DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{940A6408-D5F1-44D4-B309-C86F62868DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{940A6408-D5F1-44D4-B309-C86F62868DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E34D1F9-9824-4925-AB00-FBFA43559C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E34D1F9-9824-4925-AB00-FBFA43559C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E34D1F9-9824-4925-AB00-FBFA43559C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E34D1F9-9824-4925-AB00-FBFA43559C04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +56,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9A600841-4F6E-47A0-B947-060795E227B3} = {481A122D-507B-4645-B349-5693ED73EAF3}
 		{F5D48B16-C3C4-43D8-A7FC-5C7060C1FCA3} = {9A600841-4F6E-47A0-B947-060795E227B3}
+		{99E4DF95-8266-42A6-AE21-436AAA59A92D} = {481A122D-507B-4645-B349-5693ED73EAF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2E1B1CF-56CB-45B4-8458-F00AB691A33B}

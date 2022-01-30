@@ -9,6 +9,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>illusion</PackageTags>
     <UserSecretsId>6bb715f6-ee71-4f2f-a236-dfca2a0ba6fa</UserSecretsId>
+    <RunWorkingDirectory>$(MSBuildProjectDirectory)</RunWorkingDirectory>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -20,20 +21,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Config\packages.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Config\packages.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.1" />
     <PackageReference Include="Octokit" Version="0.50.0" />
     <PackageReference Include="System.Linq.Async" Version="5.1.0" />
   </ItemGroup>
 
   <Import Project="..\IllusionPackageCore\IllusionPackageCore.projitems" Label="Shared" />
+
+  <Import Project="..\IllusionPackageDatabase\IllusionPackageDatabase.projitems" Label="Shared" />
 
 </Project>

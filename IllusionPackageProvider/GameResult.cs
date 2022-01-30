@@ -2,4 +2,4 @@
 
 namespace IllusionPackageProvider;
 
-internal record GameResult(GameToken Token, Repository Repository, IEnumerable<WebPackage> Packages);
+internal record GameResult(GameToken Game, Repository Repository, string Name, WebPackage Package);
