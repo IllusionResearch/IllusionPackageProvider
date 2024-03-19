@@ -17,4 +17,9 @@ await Parallel.ForEachAsync(Generator.Packages(), (result, _) =>
 
 if (!Directory.Exists("Public")) Directory.CreateDirectory("Public");
 
-await File.WriteAllTextAsync(Path.Combine("Public", "packages.json"), JsonSerializer.Serialize(packages));
+var opts = new JsonSerializerOptions
+{
+    WriteIndented = true,
+};
+
+await File.WriteAllTextAsync(Path.Combine("Public", "packages.json"), JsonSerializer.Serialize(packages.OrderBy(e => e.Key), opts));

@@ -15,7 +15,7 @@ internal static class ReleaseExtension
             {
                 var math = Regex.Match(asset.Name, model.Pattern);
                 if (!math.Success) continue;
-
+                
                 var name = math.Groups.GetValueOrDefault("Name");
                 if (name is null) throw new ApplicationException($"No name found. Bad pattern ({model.Pattern})");
 
