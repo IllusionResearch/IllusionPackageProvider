@@ -107,8 +107,8 @@
         "Version": "1.5.3"
       },
       "RuntimeUnityEditor/ManlyMarco/RuntimeUnityEditor": {
-        "Url": "https://github.com/ManlyMarco/RuntimeUnityEditor/releases/download/v5.3.0/RuntimeUnityEditor_BepInEx5_v5.3.zip",
-        "Version": "5.3"
+        "Url": "https://github.com/ManlyMarco/RuntimeUnityEditor/releases/download/v5.3.1/RuntimeUnityEditor_BepInEx5_v5.3.1.0.zip",
+        "Version": "5.3.1.0"
       },
       "KK_Plugins/IllusionMods/HCharaAdjustment": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v243/KK_HCharaAdjustment.v2.1.zip",
@@ -127,8 +127,8 @@
         "Version": "1.1"
       },
       "KK_Plugins/IllusionMods/MaterialEditor": {
-        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v251/KK_MaterialEditor.v3.5.0.zip",
-        "Version": "3.5.0"
+        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v252/KK_MaterialEditor.v3.6.0.zip",
+        "Version": "3.6.0"
       },
       "KK_Plugins/IllusionMods/Subtitles": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v226.1/KK_Subtitles.v2.3.2.zip",
@@ -139,8 +139,8 @@
         "Version": "1.4"
       },
       "IllusionFixes/IllusionMods/IllusionFixes": {
-        "Url": "https://github.com/IllusionMods/IllusionFixes/releases/download/v21.5/IllusionFixes_Koikatsu_v21.5.zip",
-        "Version": "21.5"
+        "Url": "https://github.com/IllusionMods/IllusionFixes/releases/download/v21.5.1/IllusionFixes_Koikatsu_v21.5.1.zip",
+        "Version": "21.5.1"
       },
       "KK_Plugins/IllusionMods/TwoLut": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v205/KK_TwoLut.v1.0.zip",
