@@ -54,6 +54,10 @@
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v233/KK_FreeHRandom.v1.4.zip",
         "Version": "1.4"
       },
+      "KK_Plugins/IllusionMods/StudioSceneLoadedSound": {
+        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v132/KK_StudioSceneLoadedSound.v1.1.zip",
+        "Version": "1.1"
+      },
       "BepInEx.Utility/BepInEx/BepInEx.MuteInBackground": {
         "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r8/BepInEx.MuteInBackground.v1.1.zip",
         "Version": "1.1"
@@ -73,6 +77,14 @@
       "KK_Plugins/IllusionMods/EyeShaking": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v227/KK_EyeShaking.v1.3.1.zip",
         "Version": "1.3.1"
+      },
+      "KK_Plugins/IllusionMods/CharacterExport": {
+        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v131/KK_CharacterExport.v1.0.zip",
+        "Version": "1.0"
+      },
+      "KK_CrossFader/MayouKurayami/CrossFader": {
+        "Url": "https://github.com/MayouKurayami/KK_CrossFader/releases/download/0.11/CrossFader_v0.11.zip",
+        "Version": "0.11"
       },
       "KK_Plugins/IllusionMods/Pushup": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v253/KK_Pushup.v1.4.0.zip",
@@ -170,6 +182,10 @@
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v207/KK_Autosave.v1.1.1.zip",
         "Version": "1.1.1"
       },
+      "KK_Plugins/IllusionMods/StudioObjectMoveHotkeys": {
+        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v122/KK_StudioObjectMoveHotkeys.v1.0.zip",
+        "Version": "1.0"
+      },
       "KK_Plugins/IllusionMods/MaleJuice": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v200/KK_MaleJuice.v1.3.zip",
         "Version": "1.3"
@@ -177,6 +193,10 @@
       "KK_Plugins/IllusionMods/MakerDefaults": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v218/KK_MakerDefaults.v1.1.zip",
         "Version": "1.1"
+      },
+      "KK_Plugins/IllusionMods/PoseFolders": {
+        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v120/KK_PoseFolders.v1.0.zip",
+        "Version": "1.0"
       },
       "CharacterReplacer/IllusionMods/CharacterReplacer": {
         "Url": "https://github.com/IllusionMods/CharacterReplacer/releases/download/1.6.3/Koikatsu_CharacterReplacer.v1.6.3.zip",
@@ -237,6 +257,10 @@
       "KK_Plugins/IllusionMods/CharaMakerLoadedSound": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v210/KK_CharaMakerLoadedSound.v1.0.zip",
         "Version": "1.0"
+      },
+      "KK_Plugins/IllusionMods/AnimationOverdrive": {
+        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v124/KK_AnimationOverdrive.v1.1.zip",
+        "Version": "1.1"
       },
       "KK_Plugins/IllusionMods/PoseQuickLoad": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v224/KK_PoseQuickLoad.v1.1.zip",
