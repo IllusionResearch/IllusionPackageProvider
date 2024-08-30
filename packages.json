@@ -39,7 +39,7 @@
         "Version": "1.0.3"
       },
       "BepInEx.Utility/BepInEx/BepInEx.SuppressGetTypesErrorsPatcher": {
-        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r8/BepInEx.SuppressGetTypesErrorsPatcher.v1.0.zip",
+        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r9/BepInEx.SuppressGetTypesErrorsPatcher.v1.0.zip",
         "Version": "1.0"
       },
       "KK_Plugins/IllusionMods/DynamicBoneEditor": {
@@ -59,7 +59,7 @@
         "Version": "1.1"
       },
       "BepInEx.Utility/BepInEx/BepInEx.MuteInBackground": {
-        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r8/BepInEx.MuteInBackground.v1.1.zip",
+        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r9/BepInEx.MuteInBackground.v1.1.zip",
         "Version": "1.1"
       },
       "KK_Plugins/IllusionMods/AccessoryQuickRemove": {
@@ -67,7 +67,7 @@
         "Version": "1.0"
       },
       "BepInEx.Utility/BepInEx/BepInEx.CatchUnityEventExceptions": {
-        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r8/BepInEx.CatchUnityEventExceptions.v1.0.zip",
+        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r9/BepInEx.CatchUnityEventExceptions.v1.0.zip",
         "Version": "1.0"
       },
       "IPALoaderX/BepInEx/BepInEx.IPALoader": {
@@ -95,7 +95,7 @@
         "Version": "3.0"
       },
       "BepInEx.Utility/BepInEx/BepInEx.EnableFullScreenToggle": {
-        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r8/BepInEx.EnableFullScreenToggle.v1.0.zip",
+        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r9/BepInEx.EnableFullScreenToggle.v1.0.zip",
         "Version": "1.0"
       },
       "XUnity.AutoTranslator/bbepis/XUnity.AutoTranslator-BepInEx": {
@@ -127,15 +127,15 @@
         "Version": "1.1"
       },
       "KK_Plugins/IllusionMods/MaterialEditor": {
-        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v256/KK_MaterialEditor.v3.9.1.zip",
-        "Version": "3.9.1"
+        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v257/KK_MaterialEditor.v3.9.2.zip",
+        "Version": "3.9.2"
       },
       "KK_Plugins/IllusionMods/Subtitles": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v226.1/KK_Subtitles.v2.3.2.zip",
         "Version": "2.3.2"
       },
       "BepInEx.Utility/BepInEx/BepInEx.InputHotkeyBlock": {
-        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r8/BepInEx.InputHotkeyBlock.v1.4.zip",
+        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r9/BepInEx.InputHotkeyBlock.v1.4.zip",
         "Version": "1.4"
       },
       "IllusionFixes/IllusionMods/IllusionFixes": {
@@ -211,7 +211,7 @@
         "Version": "2.0"
       },
       "BepInEx.Utility/BepInEx/BepInEx.OptimizeIMGUI": {
-        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r8/BepInEx.OptimizeIMGUI.v1.0.zip",
+        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r9/BepInEx.OptimizeIMGUI.v1.0.zip",
         "Version": "1.0"
       },
       "KK_Plugins/IllusionMods/ForceHighPoly": {
@@ -219,8 +219,8 @@
         "Version": "2.1"
       },
       "BepInEx.Utility/BepInEx/BepInEx.MessageCenter": {
-        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r8/BepInEx.MessageCenter.v1.1.1.zip",
-        "Version": "1.1.1"
+        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r9/BepInEx.MessageCenter.v1.1.1.1.zip",
+        "Version": "1.1.1.1"
       },
       "KK_Plugins/IllusionMods/StudioSceneSettings": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v197/KK_StudioSceneSettings.v1.3.2.zip",
@@ -235,11 +235,11 @@
         "Version": "2.3"
       },
       "KK_Plugins/IllusionMods/Colliders": {
-        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v237/KK_Colliders.v1.3.zip",
-        "Version": "1.3"
+        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v257/KK_Colliders.v1.3.1.zip",
+        "Version": "1.3.1"
       },
       "BepInEx.Utility/BepInEx/BepInEx.EnableResize": {
-        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r8/BepInEx.EnableResize.v3.0.zip",
+        "Url": "https://github.com/BepInEx/BepInEx.Utility/releases/download/r9/BepInEx.EnableResize.v3.0.zip",
         "Version": "3.0"
       },
       "KK_Plugins/IllusionMods/AccessoryClothes": {
