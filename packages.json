@@ -107,8 +107,8 @@
         "Version": "1.5.3"
       },
       "RuntimeUnityEditor/ManlyMarco/RuntimeUnityEditor": {
-        "Url": "https://github.com/ManlyMarco/RuntimeUnityEditor/releases/download/v5.4/RuntimeUnityEditor_BepInEx5_v5.4.0.0.zip",
-        "Version": "5.4.0.0"
+        "Url": "https://github.com/ManlyMarco/RuntimeUnityEditor/releases/download/v5.4.1/RuntimeUnityEditor_BepInEx5_v5.4.1.zip",
+        "Version": "5.4.1"
       },
       "KK_Plugins/IllusionMods/HCharaAdjustment": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v243/KK_HCharaAdjustment.v2.1.zip",
@@ -171,7 +171,7 @@
         "Version": "1.1.0.2"
       },
       "BepisPlugins/IllusionMods/BepisPlugins": {
-        "Url": "https://github.com/IllusionMods/BepisPlugins/releases/download/r20.0/KK_BepisPlugins_r20.0.zip",
+        "Url": "https://github.com/IllusionMods/BepisPlugins/releases/download/r20.0-SVS/KK_BepisPlugins_r20.0.zip",
         "Version": "20.0"
       },
       "KK_Plugins/IllusionMods/EyeControl": {
