@@ -99,8 +99,8 @@
         "Version": "1.0"
       },
       "XUnity.AutoTranslator/bbepis/XUnity.AutoTranslator-BepInEx": {
-        "Url": "https://github.com/bbepis/XUnity.AutoTranslator/releases/download/v5.4.2/XUnity.AutoTranslator-BepInEx-5.4.2.zip",
-        "Version": "5.4.2"
+        "Url": "https://github.com/bbepis/XUnity.AutoTranslator/releases/download/v5.4.3/XUnity.AutoTranslator-BepInEx-5.4.3.zip",
+        "Version": "5.4.3"
       },
       "AnimationLoader/IllusionMods/KPlug.Animations": {
         "Url": "https://github.com/IllusionMods/AnimationLoader/releases/download/v1.1.3.4/KPlug.Animations.v1.5.3.zip",
@@ -115,8 +115,8 @@
         "Version": "2.1"
       },
       "KK_Plugins/IllusionMods/UncensorSelector": {
-        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v254/KK_UncensorSelector.v3.12.1.zip",
-        "Version": "3.12.1"
+        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v258/KK_UncensorSelector.v3.12.2.zip",
+        "Version": "3.12.2"
       },
       "KK_Plugins/IllusionMods/ClothingUnlocker": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v203/KK_ClothingUnlocker.v2.0.2.zip",
@@ -127,8 +127,8 @@
         "Version": "1.1"
       },
       "KK_Plugins/IllusionMods/MaterialEditor": {
-        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v257/KK_MaterialEditor.v3.9.2.zip",
-        "Version": "3.9.2"
+        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v258/KK_MaterialEditor.v3.10.zip",
+        "Version": "3.10"
       },
       "KK_Plugins/IllusionMods/Subtitles": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v226.1/KK_Subtitles.v2.3.2.zip",
@@ -179,8 +179,8 @@
         "Version": "1.0.1"
       },
       "KK_Plugins/IllusionMods/Autosave": {
-        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v207/KK_Autosave.v1.1.1.zip",
-        "Version": "1.1.1"
+        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v258/KK_Autosave.v1.2.zip",
+        "Version": "1.2"
       },
       "KK_Plugins/IllusionMods/StudioObjectMoveHotkeys": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v122/KK_StudioObjectMoveHotkeys.v1.0.zip",
