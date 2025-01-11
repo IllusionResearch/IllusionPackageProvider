@@ -127,8 +127,8 @@
         "Version": "1.1"
       },
       "KK_Plugins/IllusionMods/MaterialEditor": {
-        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v259/KK_MaterialEditor.v3.10.1.zip",
-        "Version": "3.10.1"
+        "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v260/KK_MaterialEditor.v3.11.zip",
+        "Version": "3.11"
       },
       "KK_Plugins/IllusionMods/Subtitles": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v226.1/KK_Subtitles.v2.3.2.zip",
@@ -139,8 +139,8 @@
         "Version": "1.4"
       },
       "IllusionFixes/IllusionMods/IllusionFixes": {
-        "Url": "https://github.com/IllusionMods/IllusionFixes/releases/download/v21.6/IllusionFixes_Koikatsu_v21.6.zip",
-        "Version": "21.6"
+        "Url": "https://github.com/IllusionMods/IllusionFixes/releases/download/v22.0/IllusionFixes_Koikatsu_v22.0.zip",
+        "Version": "22.0"
       },
       "KK_Plugins/IllusionMods/TwoLut": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v205/KK_TwoLut.v1.0.zip",
