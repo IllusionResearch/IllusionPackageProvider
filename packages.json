@@ -171,8 +171,8 @@
         "Version": "1.1.0.2"
       },
       "BepisPlugins/IllusionMods/BepisPlugins": {
-        "Url": "https://github.com/IllusionMods/BepisPlugins/releases/download/r20.0-SVS/KK_BepisPlugins_r20.0.zip",
-        "Version": "20.0"
+        "Url": "https://github.com/IllusionMods/BepisPlugins/releases/download/r20.1/KK_BepisPlugins_r20.1.zip",
+        "Version": "20.1"
       },
       "KK_Plugins/IllusionMods/EyeControl": {
         "Url": "https://github.com/IllusionMods/KK_Plugins/releases/download/v190/KK_EyeControl.v1.0.1.zip",
